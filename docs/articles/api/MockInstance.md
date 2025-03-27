@@ -136,7 +136,7 @@ describe('suite', () => {
     beforeEach(MockInstance.remember);
     afterEach(MockInstance.restore);
 
-    // Existins only during this sub suite.
+    // Exists only during this sub suite.
     // After the sub suite, the parent
     // customization will be present.
     beforeEach(() => MockInstance(SomeService, 'login$', throwError('wrong')));
