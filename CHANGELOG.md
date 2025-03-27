@@ -326,7 +326,7 @@
 
 ### Bug Fixes
 
-* **MockBuilder:** respect extention of classes with different decorators [#2646](https://github.com/help-me-mom/ng-mocks/issues/2646) ([d069a90](https://github.com/help-me-mom/ng-mocks/commit/d069a9047cc3188bea384632ffa1d3a0a62a09da))
+* **MockBuilder:** respect extension of classes with different decorators [#2646](https://github.com/help-me-mom/ng-mocks/issues/2646) ([d069a90](https://github.com/help-me-mom/ng-mocks/commit/d069a9047cc3188bea384632ffa1d3a0a62a09da))
 
 
 ### Features
