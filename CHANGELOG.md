@@ -1570,7 +1570,7 @@
 ### Bug Fixes
 
 * integrate mock-pipe ([d747517](https://github.com/help-me-mom/ng-mocks/commit/d747517))
-* mock_direcive integration ([7f02f7b](https://github.com/help-me-mom/ng-mocks/commit/7f02f7b))
+* mock_directive integration ([7f02f7b](https://github.com/help-me-mom/ng-mocks/commit/7f02f7b))
 
 
 ### Features
