@@ -1082,7 +1082,7 @@
 * mocking private service in component ([ab43a43](https://github.com/help-me-mom/ng-mocks/commit/ab43a438902dc01a75a16b82a6cbd2ef50b8c252)), closes [#198](https://github.com/help-me-mom/ng-mocks/issues/198)
 * more intelligent overrides ([b17ff7f](https://github.com/help-me-mom/ng-mocks/commit/b17ff7ffedbda0867e7c6d7cdd06ffb70ea19e2a))
 * more restricted stub signature ([fc179db](https://github.com/help-me-mom/ng-mocks/commit/fc179dbb5402aef4b915d20e8cb09bccf28bacdd))
-* performance degration caused by .exclude feature ([3bf29ad](https://github.com/help-me-mom/ng-mocks/commit/3bf29ad9199169a33be6ba94f44a2d52176122a3))
+* performance degradation caused by .exclude feature ([3bf29ad](https://github.com/help-me-mom/ng-mocks/commit/3bf29ad9199169a33be6ba94f44a2d52176122a3))
 * support of modules with providers in MockBuilder ([e0250e0](https://github.com/help-me-mom/ng-mocks/commit/e0250e04028e781a6ebb6c43f5d138b1660c8569)), closes [#197](https://github.com/help-me-mom/ng-mocks/issues/197)
 
 ## [10.2.0](https://github.com/help-me-mom/ng-mocks/compare/v10.1.3...v10.2.0) (2020-10-03)
