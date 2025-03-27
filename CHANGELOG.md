@@ -1265,7 +1265,7 @@
 * correct mocking of xxxChild(ren) decorators ([de7b8c3](https://github.com/help-me-mom/ng-mocks/commit/de7b8c3)), closes [#109](https://github.com/help-me-mom/ng-mocks/issues/109)
 * improved helpers and documentation ([9ef24a0](https://github.com/help-me-mom/ng-mocks/commit/9ef24a0))
 * more friendly return type of mock-render ([f4a3b79](https://github.com/help-me-mom/ng-mocks/commit/f4a3b79))
-* remove usage of uknown ([26dfdb8](https://github.com/help-me-mom/ng-mocks/commit/26dfdb8))
+* remove usage of unknown ([26dfdb8](https://github.com/help-me-mom/ng-mocks/commit/26dfdb8))
 
 
 ### Features
