@@ -202,7 +202,7 @@ MockInstance.scope();
 beforeAll(() => MockInstance(TOKEN, () => true));
 
 // ItsModule provides TOKEN which is used in TargetComponent.
-beforEach(() => MockBuilder(TargetComponent, ItsModule));
+beforeEach(() => MockBuilder(TargetComponent, ItsModule));
 
 it('test 1', () => {
   // token is true
