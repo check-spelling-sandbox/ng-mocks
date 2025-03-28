@@ -30,7 +30,7 @@ const tpl1 = ngMocks.findTemplateRef(MyDirective1);
 const tpl2 = ngMocks.findTemplateRef(MyDirective2);
 ```
 
-## Id
+## ID
 
 Assume, that a template has the next code.
 

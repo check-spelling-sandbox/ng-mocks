@@ -50,7 +50,7 @@ class ChildClass extends ParentClass {
   }
 }
 
-class GetterSetterMethodHuetod {
+class GetterSetterMethod {
   public nameValue = 'nameValue';
 
   public get name(): string {
@@ -247,8 +247,8 @@ describe('MockService', () => {
   });
 
   it('mocks getters, setters and methods in a way that jasmine can mock them w/o an issue', () => {
-    const mock: GetterSetterMethodHuetod = MockService(
-      GetterSetterMethodHuetod,
+    const mock: GetterSetterMethod = MockService(
+      GetterSetterMethod,
     );
     expect(mock).toBeDefined();
 
@@ -358,7 +358,7 @@ describe('replaceWithMocks', () => {
           useValue: [
             DeepParentClass,
             ParentClass,
-            GetterSetterMethodHuetod,
+            GetterSetterMethod,
           ],
         },
       ],
@@ -372,7 +372,7 @@ describe('replaceWithMocks', () => {
     const actual = ngMocks.get('test');
     expect(actual).toEqual([
       DeepParentClass,
-      GetterSetterMethodHuetod,
+      GetterSetterMethod,
     ]);
   });
 
@@ -383,7 +383,7 @@ describe('replaceWithMocks', () => {
           provide: 'test',
           useValue: {
             DeepParentClass,
-            GetterSetterMethodHuetod,
+            GetterSetterMethod,
             ParentClass,
           },
         },
@@ -398,7 +398,7 @@ describe('replaceWithMocks', () => {
     const actual = ngMocks.get('test');
     expect(actual).toEqual({
       DeepParentClass,
-      GetterSetterMethodHuetod,
+      GetterSetterMethod,
     });
   });
 
@@ -410,7 +410,7 @@ describe('replaceWithMocks', () => {
           useValue: {
             canActivate: [
               DeepParentClass,
-              GetterSetterMethodHuetod,
+              GetterSetterMethod,
               ParentClass,
             ],
           },
@@ -424,7 +424,7 @@ describe('replaceWithMocks', () => {
     expect(actual).toEqual({
       canActivate: [
         DeepParentClass,
-        GetterSetterMethodHuetod,
+        GetterSetterMethod,
         ParentClass,
       ],
     });
@@ -438,7 +438,7 @@ describe('replaceWithMocks', () => {
           useValue: {
             canActivate: [
               DeepParentClass,
-              GetterSetterMethodHuetod,
+              GetterSetterMethod,
               ParentClass,
             ],
           },
